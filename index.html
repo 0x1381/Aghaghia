@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <title>Aghaghia</title>
+
+        meta
+
+    </head>
+
+    <style type="text/css" media="all">html,
+
+body {
+
+  padding: 0;
+
+  margin: 0;
+
+  height: 100%;
+
+}
+
+body {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: black;
+
+}
+
+button {
+
+  appearance: none;
+
+  background: black;
+
+  color: white;
+
+  padding: 10px;
+
+  font-size: 16px;
+
+  border-radius: 5px;
+
+  position: relative;
+
+  border-color: rgba(256, 256, 256, 0.6);
+
+  outline: 0;
+
+}
+
+button:active{
+
+  background: transparent;
+
+  border: 0;
+
+}
+
+button:hover:before {
+
+  content: '';
+
+  position: absolute;
+
+  top: -4px;
+
+  left: -4px;
+
+  right: -4px;
+
+  bottom: -4px;
+
+  border-radius: 5px;
+
+  filter: blur(5px);
+
+  background: linear-gradient(45deg,
+
+    #ff0000,
+
+    #ff7300,
+
+    #fffb00,
+
+    #48ff00, #00ffd5,
+
+    #002bff, #7a00ff,
+
+    #ff00c8,
+
+    #ff0000);
+
+  z-index: -1;
+
+  background-size: 400%;
+
+  animation: glow 20s linear infinite;
+
+}
+
+@keyframes glow {
+
+  0% {
+
+    background-position: 0 0;
+
+  }
+
+  50% {
+
+    background-position: 400% 0;
+
+  }
+
+  100% {
+
+    background-position: 0 0;
+
+  }
+
+}
+
+    </style>
+
+    <body>
+
+        
+
+       <button>
+
+  Aghaghia WebSite
+
+</button>
+
+    </body>
+
+</html>
